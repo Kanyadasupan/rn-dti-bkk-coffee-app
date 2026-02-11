@@ -7,7 +7,6 @@ export default function SplashScreen() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      // ใช้ replace เพื่อไม่ให้กด Back กลับมาหน้านี้ได้
       router.replace('/home');
     }, 3000);
  
@@ -28,7 +27,7 @@ export default function SplashScreen() {
  
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#fff' },
-  logo: { width: 150, height: 150, marginBottom: 20, borderRadius: 20 },
-  title: { fontFamily: 'Prompt_700Bold', fontSize: 28, color: '#4A3B32' },
+  logo: { width: 150, height: 150, marginBottom: 20, borderRadius: 10 },
+  title: { fontFamily: 'Prompt_700Bold', fontSize: 28, color: '#6F4E37' },
   caption: { fontFamily: 'Prompt_400Regular', fontSize: 16, color: '#888', marginTop: 10 },
 });

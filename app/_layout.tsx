@@ -35,7 +35,7 @@ export default function RootLayout() {
           headerBackButtonDisplayMode: "minimal",
           headerTitleAlign: "center",
           headerTitleStyle: { fontFamily: "Prompt_400Regular",color: "#fff" },
-          headerStyle: { backgroundColor: "#2c1c05" },
+          headerStyle: { backgroundColor: "#6F4E37" },
         }}
       />
       <Stack.Screen
@@ -44,7 +44,9 @@ export default function RootLayout() {
           title: "รายละเอียดร้าน",
           headerBackButtonDisplayMode: "minimal",
           headerTitleAlign: "center",
-          headerStyle: { backgroundColor: "#302008" },
+          headerTitleStyle: { fontFamily: "Prompt_400Regular",color: "#fff" },
+          headerStyle: { backgroundColor: "#6F4E37" },
+          headerTintColor: "#fff",
         }}
       />
     </Stack>
